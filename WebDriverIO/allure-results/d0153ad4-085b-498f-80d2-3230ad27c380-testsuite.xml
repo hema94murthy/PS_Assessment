@@ -1,0 +1,171 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648760200321' stop='1648760204304'>
+    <name>The Internet Guinea Pig Website: As a user, I can log into the secure area</name>
+    <title>The Internet Guinea Pig Website: As a user, I can log into the secure area</title>
+    <test-cases>
+        <test-case start='1648760200322' status='passed' stop='1648760200324'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648760200324' status='passed' stop='1648760204035'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-99.0.4844.84'/>
+            </parameters>
+            <steps>
+                <step start='1648760200331' status='passed' stop='1648760204033'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='5e0b6eba-f985-4af6-b809-aa35d96f54cd-attachment.json' type='application/json' size='55'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1648760204035' status='passed' stop='1648760204266'>
+            <name>When I login with tomsmith and SuperSecretPassword!</name>
+            <title>When I login with tomsmith and SuperSecretPassword!</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-99.0.4844.84'/>
+            </parameters>
+            <steps>
+                <step start='1648760204042' status='passed' stop='1648760204051'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='d0191d81-9f68-4c95-9b14-453e721d81e0-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='484eee2e-88ec-44aa-8471-5b222990338d-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648760204065' status='passed' stop='1648760204077'>
+                    <name>elementClear</name>
+                    <title>elementClear</title>
+                    <attachments>
+                        <attachment title='Request' source='b8021909-6dd3-403b-ac49-24fd3fd0038b-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648760204087' status='passed' stop='1648760204131'>
+                    <name>elementSendKeys</name>
+                    <title>elementSendKeys</title>
+                    <attachments>
+                        <attachment title='Request' source='c341a33b-b523-4f2f-b2ac-57928129f0e3-attachment.json' type='application/json' size='52'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648760204137' status='passed' stop='1648760204141'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='dc44e8a3-8c3f-43bf-ae79-314896836a7f-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='72130c21-8880-41fa-9582-dce6304afbb0-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648760204148' status='passed' stop='1648760204156'>
+                    <name>elementClear</name>
+                    <title>elementClear</title>
+                    <attachments>
+                        <attachment title='Request' source='d57cdb10-8480-42e0-b8ec-0053e6ea782a-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648760204160' status='passed' stop='1648760204208'>
+                    <name>elementSendKeys</name>
+                    <title>elementSendKeys</title>
+                    <attachments>
+                        <attachment title='Request' source='5e1ea044-cda8-4bc1-a847-30532c73fb31-attachment.json' type='application/json' size='64'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648760204211' status='passed' stop='1648760204214'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='e10c6f73-3df3-414b-8a8d-a312434dd8a3-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='b3969b8b-3661-41cf-b184-7d1e75215f1e-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648760204219' status='passed' stop='1648760204265'>
+                    <name>elementClick</name>
+                    <title>elementClick</title>
+                    <attachments>
+                        <attachment title='Request' source='25d3eabf-16e5-4b2f-9ad0-7f1fee6fd1c8-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1648760204266' status='failed' stop='1648760204301'>
+            <name>Then I should see a flash message saying You logged into a secure area!</name>
+            <title>Then I should see a flash message saying You logged into a secure area!</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toBe(expected) // Object.is equality</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "PlayStation"
+                Received: {}
+                    at HomePage.checkTitle (C:\Users\mscra\OneDrive\Desktop\PS_Project\WebDriverIO\features\pageobjects\/home.page.js:11:36)
+                    at World.&lt;anonymous> (C:\Users\mscra\OneDrive\Desktop\PS_Project\WebDriverIO\features\step-definitions\/steps.js:21:14)
+                    at World.executeAsync (C:\Users\mscra\OneDrive\Desktop\PS_Project\WebDriverIO\node_modules\@wdio\utils\build\shim.js:331:27)
+                    at World.testFrameworkFnWrapper (C:\Users\mscra\OneDrive\Desktop\PS_Project\WebDriverIO\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at wrapPromiseWithTimeout (C:\Users\mscra\OneDrive\Desktop\PS_Project\WebDriverIO\node_modules\@wdio\cucumber-framework\node_modules\@cucumber\cucumber\src\time.ts:56:10)
+                    at Object.run (C:\Users\mscra\OneDrive\Desktop\PS_Project\WebDriverIO\node_modules\@wdio\cucumber-framework\node_modules\@cucumber\cucumber\src\user_code_runner.ts:86:16)
+                    at Object.run (C:\Users\mscra\OneDrive\Desktop\PS_Project\WebDriverIO\node_modules\@wdio\cucumber-framework\node_modules\@cucumber\cucumber\src\runtime\step_runner.ts:50:20)
+                    at TestCaseRunner.invokeStep (C:\Users\mscra\OneDrive\Desktop\PS_Project\WebDriverIO\node_modules\@wdio\cucumber-framework\node_modules\@cucumber\cucumber\src\runtime\test_case_runner.ts:130:12)
+                    at TestCaseRunner.runStep (C:\Users\mscra\OneDrive\Desktop\PS_Project\WebDriverIO\node_modules\@wdio\cucumber-framework\node_modules\@cucumber\cucumber\src\runtime\test_case_runner.ts:307:20)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648760204301' status='passed' stop='1648760204302'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
